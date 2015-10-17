@@ -14,6 +14,7 @@
 		7D599F8F1BA6012000B5BC72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D599F8E1BA6012000B5BC72 /* Images.xcassets */; };
 		7D599F921BA6012000B5BC72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D599F901BA6012000B5BC72 /* LaunchScreen.xib */; };
 		7D599F9E1BA6012000B5BC72 /* Assignment2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D599F9D1BA6012000B5BC72 /* Assignment2Tests.m */; };
+		7D599FA91BA603AC00B5BC72 /* A2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D599FA81BA603AC00B5BC72 /* A2TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7D599F971BA6012000B5BC72 /* Assignment2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D599F9C1BA6012000B5BC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D599F9D1BA6012000B5BC72 /* Assignment2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment2Tests.m; sourceTree = "<group>"; };
+		7D599FA71BA603AC00B5BC72 /* A2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2TableViewController.h; sourceTree = "<group>"; };
+		7D599FA81BA603AC00B5BC72 /* A2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				7D599F881BA6012000B5BC72 /* ViewController.h */,
 				7D599F891BA6012000B5BC72 /* ViewController.m */,
 				7D599F8B1BA6012000B5BC72 /* Main.storyboard */,
+				7D599FA71BA603AC00B5BC72 /* A2TableViewController.h */,
+				7D599FA81BA603AC00B5BC72 /* A2TableViewController.m */,
 				7D599F8E1BA6012000B5BC72 /* Images.xcassets */,
 				7D599F901BA6012000B5BC72 /* LaunchScreen.xib */,
 				7D599F811BA6012000B5BC72 /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D599FA91BA603AC00B5BC72 /* A2TableViewController.m in Sources */,
 				7D599F8A1BA6012000B5BC72 /* ViewController.m in Sources */,
 				7D599F871BA6012000B5BC72 /* AppDelegate.m in Sources */,
 				7D599F841BA6012000B5BC72 /* main.m in Sources */,
